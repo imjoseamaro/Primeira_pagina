@@ -1,0 +1,132 @@
+* { /*organizando todos os itens*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none ;
+}
+
+body { /*imagem de fundo*/
+	font-size: 100%;
+	background-image: url("img/backgroundteste4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 1700px;
+ }
+
+ .cabecalho { /*cabeçalho com imagem e links*/
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	padding: 24px;
+ }
+
+ .cabecalho-imagem {
+ 	height: 72px;
+ }
+
+ .cabecalho-menu {
+ 	display: flex;
+ 	gap: 32px;
+ }
+
+ .cabecalho-menu-item {
+ 	font-family: "Sarala", sans-serif;
+ 	font-weight: 400;
+ 	font-size: 18px;
+ }
+
+ .conteudo { /*inicio do conteudo principal*/
+ 	margin-bottom: 48px;
+ 	border-top: 0.4px solid white;
+ }
+
+.conteudo-principal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+	gap: 32px;
+}
+
+
+.conteudo-principal-escrito-titulo {
+	background-color: rgba(251,255,255,0.5);
+	font-family: "Righteous", cursive;
+	font-weight: 400;
+	font-size: 32px;
+	align-items: left;
+}
+
+.conteudo-principal-escrito-subtitulo {
+	background-color: rgba(251,255,255,0.5);
+	font-family: "Sarala", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.conteudo-principal-imagem {
+	height: 130px;
+}
+
+.conteudo-secundario { /*inicio do conteudo secundario*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+	color: white;
+	border-top: 0.4px solid white;
+	padding-top: 48px;
+	font-family: "Impact", fantasy;
+	font-weight : 400;
+	font-size: 30px;
+	margin-bottom: 16px; 
+}
+
+.conteudo-secundario-paragrafo {
+	text-align: center;
+	background-color: rgba(251,255,255,0.5);
+	font-family: "Sarala", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+.conteudo-terceario {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.conteudo-terceario-titulo-aparencia {
+	color: white;
+	text-align: center;
+	border-top: 0.4px solid white;
+	padding-top: 48px;
+	font-family: "Impact", fantasy;
+	font-weight : 400;
+	font-size: 30px;
+	margin-bottom: 16px; 
+}
+.conteudo-terceario-paragrafo {
+	text-align: center;
+	background-color: rgba(251,255,255,0.5);
+	font-family: "Sarala", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+.rodape {
+	padding: 32px;
+	border-top: 0.4px solid white;
+}
+
+.rodape-imagem{
+	height: 400px;
+}
