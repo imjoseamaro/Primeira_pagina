@@ -7,7 +7,7 @@
 
 body { /*imagem de fundo*/
 	font-size: 100%;
-	background-image: url("img/backgroundteste4.jpg");
+	background-image: url("backgroundteste4.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 1700px;
